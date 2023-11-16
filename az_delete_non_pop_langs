@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# List of allowed languages
+allowed_languages=("Python" "Java" "C" "CPP" "CSharp" "Swift" "Rust" "Go" "Kotlin" "TypeScript")
+
+# Loop over all 'Prime*' directories
+for dir in Prime*; do
+    # Extract the language name from the directory name
+    language=${dir#Prime}
+
+    # Check if the language is in the list of allowed languages
+    if [[ " ${allowed_languages[@]} " =~ " ${language} " ]]; then
+        # Loop over all subdirectories
+        for subdir in $dir/*; do
+            # Check if the subdirectory is not 'solution_1'
+            if [[ $subdir != "$dir/solution_1" ]]; then
+                # Delete the subdirectory
+                echo "Deleting subdirectory: $subdir"
+                rm -rf $subdir
+            fi
+        done
+    else
+        # Delete the directory
+        echo "Deleting directory: $dir"
+        rm -rf $dir
+    fi
+done
