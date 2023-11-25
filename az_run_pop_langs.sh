@@ -5,6 +5,8 @@ allowed_solutions=("PrimePython/solution_1" "PrimeJava/solution_1" "PrimeC/solut
 # Loop over all allowed solutions
 for solution in ${allowed_solutions[@]}; do
     # Run the make command for the solution
+    mkdir -p "results/results_$(dirname $solution)"
+
     echo "Running make command for solution: $solution"
-    make DIRECTORY=$solution
+    make DIRECTORY=$solution FORMATTER=csv > "results/results_${solution}.csv"
 done
