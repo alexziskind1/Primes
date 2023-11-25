@@ -1,0 +1,10 @@
+Index,Implementation,Solution,Label,Passes,Duration,Threads,Algorithm,Faithful,Bits,PassesPerSecond
+1,rust,1,mike-barber_bit-extreme-hybrid,99176,5.00001,1,base,yes,1,19835.15271
+2,rust,1,mike-barber_bit-unrolled-hybrid,96289,5.00002,1,base,yes,1,19257.72470
+3,rust,1,mike-barber_bit-extreme-hybrid,367997,5.00012,4,base,yes,1,18399.42536
+4,rust,1,mike-barber_bit-unrolled-hybrid,365303,5.00016,4,base,yes,1,18264.57867
+5,rust,1,mike-barber_bit-extreme-hybrid,545134,5.00022,8,base,yes,1,13627.75736
+6,rust,1,mike-barber_bit-unrolled-hybrid,536243,5.00022,8,base,yes,1,13405.48819
+7,rust,1,mike-barber_bit-rotate,5683,5.00004,1,base,yes,1,1136.59024
+8,rust,1,mike-barber_bit-rotate,20462,5.00077,4,base,yes,1,1022.94196
+9,rust,1,mike-barber_bit-rotate,35433,5.00107,8,base,yes,1,885.63564

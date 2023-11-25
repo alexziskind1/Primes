@@ -1,0 +1,10 @@
+Index,Implementation,Solution,Label,Passes,Duration,Threads,Algorithm,Faithful,Bits,PassesPerSecond
+1,kotlin,1,jvm_kotlin_idiomatic_single,9054,5.00200,1,base,yes,,1810.07597
+2,kotlin,1,jvm_kotlin_idiomatic_fast_single,8834,5.00500,1,base,yes,,1765.03497
+3,kotlin,1,jvm_kotlin_traditional_single,8833,5.01400,1,base,yes,,1761.66733
+4,kotlin,1,jvm_kotlin_idiomatic_multi,105104,5.00000,16,base,yes,,1313.80000
+5,kotlin,1,jvm_kotlin_traditional_multi,104245,5.00000,16,base,yes,,1303.06250
+6,kotlin,1,jvm_kotlin_idiomatic_fast_multi,104207,5.00000,16,base,yes,,1302.58750
+7,kotlin,1,js_kotlin_traditional_single,2877,5.00200,1,base,yes,,575.16993
+8,kotlin,1,js_kotlin_idiomatic_fast_single,2864,5.00400,1,base,yes,,572.34213
+9,kotlin,1,js_kotlin_idiomatic_single,2822,5.00300,1,base,yes,,564.06156

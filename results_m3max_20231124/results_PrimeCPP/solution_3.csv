@@ -1,0 +1,3 @@
+Index,Implementation,Solution,Label,Passes,Duration,Threads,Algorithm,Faithful,Bits,PassesPerSecond
+1,cpp,3,flo80_pol_constexpr,303317197,5.00003,1,base,no,1,60663111.81920
+2,cpp,3,flo80_pol_constexpr,203212933,5.00287,16,base,no,1,2538702.92380

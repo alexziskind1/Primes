@@ -1,0 +1,11 @@
+Index,Implementation,Solution,Label,Passes,Duration,Threads,Algorithm,Faithful,Bits,PassesPerSecond
+1,csharp,1,kinematics_poolq30m,24726,5.00011,1,other,yes,1,4945.09121
+2,csharp,1,kinematics_rawd30,21530,5.00006,1,wheel,yes,1,4305.94833
+3,csharp,1,kinematics_poolb6,16304,5.00013,1,wheel,yes,1,3260.71522
+4,csharp,1,kinematics_rawd6,14061,5.00008,1,wheel,yes,1,2812.15501
+5,csharp,1,kinematics_poold6,13857,5.00036,1,wheel,yes,1,2771.20047
+6,csharp,1,kinematics_poolq6,11277,5.00022,1,wheel,yes,1,2255.30077
+7,csharp,1,kinematics_bool2while,10181,5.00024,1,base,yes,8,2036.10227
+8,csharp,1,kinematics_rawd2,6106,5.00079,1,base,yes,1,1221.00708
+9,csharp,1,kinematics_poold2,5549,5.00081,1,base,yes,1,1109.62024
+10,csharp,1,kinematics_bit2while,4717,5.00085,1,base,yes,1,943.23965

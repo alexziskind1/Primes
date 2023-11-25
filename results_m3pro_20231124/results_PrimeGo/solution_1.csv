@@ -1,0 +1,2 @@
+Index,Implementation,Solution,Label,Passes,Duration,Threads,Algorithm,Faithful,Bits,PassesPerSecond
+1,go,1,bundgaard,5670,5.00050,1,base,yes,,1133.88570
